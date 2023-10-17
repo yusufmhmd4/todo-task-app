@@ -1,0 +1,79 @@
+
+
+.todo-item {
+  padding: 18px 14px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.completed-status {
+  position: absolute;
+  top: -2px;
+  font-size: 10px;
+  left: 46px;
+  font-family: Roboto;
+  color: red;
+}
+.label-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #bfbfbf;
+  padding: 12px 16px;
+  flex-grow: 1;
+  margin-left: 10px;
+  background-color: #e6f6ff;
+  border-radius: 4px;
+  border-left: 4px solid #096f92;
+}
+.completed {
+  background-color: #fcaeae;
+  border-left: 4px solid #321e1e;
+}
+.todo-item-button-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 8px;
+}
+.todo-item-button-container button {
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-left: 4px;
+}
+
+.edit-icon,
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+.delete-icon {
+  color: #ff6969;
+}
+.todo-label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  text-align: start;
+}
+.checked {
+  text-decoration: line-through;
+}
+.editable-text {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 2px 6px;
+  width: 100%;
+}
+.todo-item > input:checked {
+  background-color: red;
+  border-left: 4px solid #191825;
+}

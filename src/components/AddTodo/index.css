@@ -1,0 +1,36 @@
+.add-todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .add-todo-input {
+    font-family: Roboto;
+    font-size: 14px;
+    background-color: white;
+    flex-grow: 1;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+    padding: 15px;
+  }
+  .add-todo-button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 5px 20px;
+    align-self: flex-start;
+    outline: none;
+    cursor: pointer;
+  }
+  .add-todo-button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
